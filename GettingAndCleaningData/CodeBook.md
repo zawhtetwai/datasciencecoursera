@@ -46,7 +46,7 @@ The assignment is to clean, reshape and merge the raw data and to produce a tidy
 ##Tidy Data (1<sup>st</sup> cut)
 
 The findal tidy data shall be composed as below:
-<table border = 1>
+<table border = "1" width="60%">
 <tr>
 <td>Activity</td>
 <td>Subject</td>
@@ -149,7 +149,7 @@ The features (mean and std columns) in tidy data set are:<br/>
 The last step of the assignment is to create a second, independent tidy data set with the average of each variable for each activity and each subject:
 This was achieved by using plyr package and the tidy data set is compacted into 181 observations with 79 variables.
 
-<table border = 1>
+<table border = "1" width="60%">
 <tr>
 <td>Activity</td>
 <td>Subject</td>
@@ -163,4 +163,4 @@ This was achieved by using plyr package and the tidy data set is compacted into 
 <tr>
 </table>
 
-The tidy data set can be viewed at https://github.com/zawhtetwai/datasciencecoursera/blob/master/GettingAndCleaningData/tidy_data.txt
+The tidy data set can be viewable at https://
