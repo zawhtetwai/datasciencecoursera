@@ -2,10 +2,10 @@
 This assignment is to work on the data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
 ##The deliverables for the assignment:
-*CodeBook.md
-*UCI HAR Dataset (unzipped data set)
-*README.MD
-*run_analysis.R
+1. CodeBook.md
+2. UCI HAR Dataset (unzipped data set)
+3. README.MD
+4. run_analysis.R
 
 ##Prerequisites for the script (run_analysis.R)
 1. R 3.1.1 
