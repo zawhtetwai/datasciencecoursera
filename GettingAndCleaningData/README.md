@@ -1,4 +1,4 @@
-#Course Project: Human Activity Recognition Using Smartphones 
+#Human Activity Recognition Using Smartphones 
 This assignment is to work on the data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
 ##The deliverables for the assignment:
