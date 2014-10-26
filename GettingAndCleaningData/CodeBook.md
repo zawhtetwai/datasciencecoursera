@@ -145,7 +145,7 @@ The features (mean and std columns) in tidy data set are:<br/>
 78. "fBodyBodyGyroJerkMag-<b>std</b>()" <br/>
 79. "fBodyBodyGyroJerkMag-<b>mean</b>Freq()"
 
-##Tidy data (Final cut)
+##Tidy data (final cut)
 The last step of the assignment is to create a second, independent tidy data set with the average of each variable for each activity and each subject:
 This was achieved by using plyr package and the tidy data set is compacted into 181 observations with 79 variables.
 
