@@ -1,3 +1,4 @@
+require(plyr)
  ## ----------- variables for files locations -------------
  ## features
  features_path <- "UCI HAR Dataset/features.txt"
