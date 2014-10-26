@@ -148,4 +148,19 @@ The features (mean and std columns) in tidy data set are:<br/>
 ##Tidy Data (Final cut)
 The last step of the assignment is to create a second, independent tidy data set with the average of each variable for each activity and each subject:
 This was achieved by using plyr package and the tidy data set is compacted into 181 observations with 79 variables.
+
+<table border = 1>
+<tr>
+<td>Activity</td>
+<td>Subject</td>
+<td>Features in mean and std (1:79)</td>
+</tr>
+<tr>
+<td>WALKING</td>
+<td>1</td>
+<td>Training and test data (1:181)</td>
+</tr>
+<tr>
+</table>
+
 The tidy data set can be viewable at https://
