@@ -1,18 +1,18 @@
 #Human Activity Recognition Using Smartphones 
 This assignment is to work on the data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-##The deliverables for the assignment:
-1. CodeBook.md
-2. UCI HAR Dataset (unzipped data set)
-3. README.MD
-4. run_analysis.R
+##Deliverables for the assignment:
+* CodeBook.md
+* UCI HAR Dataset (unzipped data set)
+* README.MD
+* run_analysis.R
 
 ##Prerequisites for the script (run_analysis.R)
-1. R 3.1.1 
- -download link for Mac: http://cran.r-project.org/bin/macosx/
- -download link for Windows: http://cran.r-project.org/bin/windows/base/
-2. RTools 3.1
-3. plyr package
+* R 3.1.1 <br/>
+ -download link for Mac: http://cran.r-project.org/bin/macosx/ <br/> 
+ -download link for Windows: http://cran.r-project.org/bin/windows/base/ <br/> 
+* RTools 3.1
+* plyr package
 
 ##How to run the script
 1. Launch the RGUI
@@ -25,11 +25,11 @@ This assignment is to work on the data collected from the accelerometers from th
 ##Processing Steps
 Two data sets are mainly involved in this process. Descriptive activity and subject names are required to map to these to data set accordingly.
 
-1. Load the plyr package
-This package is required to apply mean to all feature columns by grouping Activities and Subjects
+1. Load the plyr package <br/>
+ - This package is required to apply mean to all feature columns by grouping Activities and Subjects
 
-2. Declaring the variables
-All file paths are set into the respective variables to be used later in the script
+2. Declaring the variables <br/>
+ - All file paths are set into the respective variables to be used later in the script
 
 3. Load the features file, locate the mean and std variables in it using regular expression
 
