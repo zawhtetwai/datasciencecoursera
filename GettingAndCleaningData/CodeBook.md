@@ -54,12 +54,12 @@ The findal tidy data shall be composed as below:
 </tr>
 <tr>
 <td>WALKING</td>
-<td>1</td>
+<td>1:30</td>
 <td>Training data (1:7352)</td>
 </tr>
 <tr>
 <td>WALKING</td>
-<td>1</td>
+<td>1:30</td>
 <td>Test data (1:2947)</td>
 </tr>
 </table>
@@ -157,7 +157,7 @@ This was achieved by using plyr package and the tidy data set is compacted into 
 </tr>
 <tr>
 <td>WALKING</td>
-<td>1</td>
+<td>1:30</td>
 <td>Training and test data (1:181)</td>
 </tr>
 <tr>
