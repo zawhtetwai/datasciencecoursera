@@ -43,7 +43,7 @@ The assignment is to clean, reshape and merge the raw data and to produce a tidy
     5. STANDING
     6. LAYING
 
-##Tidy Data (1<sup>st</sup> cut)
+##Tidy data (1<sup>st</sup> cut)
 
 The findal tidy data shall be composed as below:
 <table border = "1" width="60%">
@@ -145,7 +145,7 @@ The features (mean and std columns) in tidy data set are:<br/>
 78. "fBodyBodyGyroJerkMag-<b>std</b>()" <br/>
 79. "fBodyBodyGyroJerkMag-<b>mean</b>Freq()"
 
-##Tidy Data (Final cut)
+##Tidy data (Final cut)
 The last step of the assignment is to create a second, independent tidy data set with the average of each variable for each activity and each subject:
 This was achieved by using plyr package and the tidy data set is compacted into 181 observations with 79 variables.
 
