@@ -163,4 +163,4 @@ This was achieved by using plyr package and the tidy data set is compacted into 
 <tr>
 </table>
 
-The tidy data set can be viewable at https://
+The tidy data set can be viewed at https://github.com/zawhtetwai/datasciencecoursera/blob/master/GettingAndCleaningData/tidy_data.txt

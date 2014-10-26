@@ -6,6 +6,7 @@ This assignment is to work on the data collected from the accelerometers from th
 * UCI HAR Dataset (unzipped data set)
 * README.MD
 * run_analysis.R
+* tidy_data.txt
 
 ##Prerequisites for the script (run_analysis.R)
 * R 3.1.1 <br/>
