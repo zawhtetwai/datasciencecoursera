@@ -1,21 +1,21 @@
-## Getting and Cleaning Data Course Project
-# Human Activity Recognition Using Smartphones 
+# Getting and Cleaning Data Course Project
+## Human Activity Recognition Using Smartphones 
 This assignment is to work on the data collected from the accelerometers from the Samsung Galaxy S smartphone.
 
-#The deliverables for the assignment:
+##The deliverables for the assignment:
 *1. CodeBook.md
 *2. UCI HAR Dataset (unzipped data set)
 *3. README.MD
 *4. run_analysis.R
 
-#Prerequisites for the script (run_analysis.R)
+##Prerequisites for the script (run_analysis.R)
 *R 3.1.1 
  -download link for Mac: http://cran.r-project.org/bin/macosx/
  -download link for Windows: http://cran.r-project.org/bin/windows/base/
 *RTools 3.1
 *plyr package
 
-#How to run the script
+##How to run the script
 *1. Launch the RGUI
 *2. Set the working directroy using setwd("your current working directory")
 *3. Download the UCI HAR Dataset and run_analysis.R to your working directory
@@ -23,7 +23,7 @@ This assignment is to work on the data collected from the accelerometers from th
 *5. After seeing the "Loading required package: plyr" and cursour is ready again in the RGUI console:
   -look out for the tidy_data.txt in your working directory
 
-##Processing Steps
+#Processing Steps
 Two data sets are mainly involved in this process. Descriptive activity and subject names are required to map to these to data set accordingly.
 
 #1. Load the plyr package
