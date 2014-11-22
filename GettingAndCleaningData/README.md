@@ -1,51 +1,33 @@
-#Human Activity Recognition Using Smartphones 
-This assignment is to work on the data collected from the accelerometers from the Samsung Galaxy S smartphone.
+#Exploratory Data Analysis Course Project 1
+The dataset for this assignment is the Measurements of electric power consumption in one household with a one-minute sampling rate over a period of almost 4 years. The task is to examine how household energy usage varies over a 2-day period in February, 2007 and to construct the 4 plots using the base plotting system. 
 
 ##Deliverables for the assignment
-* CodeBook.md
-* UCI HAR Dataset (unzipped data set)
 * README.MD
-* run_analysis.R
-* tidy_data.txt
+* household_power_consumption.txt ("Electric power consumption" dataset)
+* load_data.R that read the dataset into R. The it loads the data for the period between 2007-02-01 to 2007-02-02.
+* 4 R scripts to produce the 4 plot images
+  -plot1.R <br/>
+  -plot2.R <br/>
+  -plot3.R <br/>
+  -plot4.R <br/>
+* 4 plots that are saved in PNG file format with a width of 480 pixels and a height of 480 pixels.
+  -plot1.png <br/>
+  -plot2.png <br/>
+  -plot3.png <br/>
+  -plot4.png <br/> 
 
 ##Prerequisites for the script (run_analysis.R)
 * R 3.1.1 <br/>
  -download link for Mac: http://cran.r-project.org/bin/macosx/ <br/> 
  -download link for Windows: http://cran.r-project.org/bin/windows/base/ <br/> 
 * RTools 3.1
-* plyr package
+* dplyr package
 
 ##How to run the script
-1. Launch the RGUI
-2. Set the working directroy using setwd("your current working directory")
-3. Download the UCI HAR Dataset and run_analysis.R to your working directory
-4. type 'source("run_analysis.R")' without single quote.
-5. After seeing the "Loading required package: plyr" and cursour is ready again in the RGUI console:
-  -look out for the tidy_data.txt in your working directory
-
-##Processing Steps
-Two data sets are mainly involved in this process. Descriptive activity and subject names are required to map to these to data set accordingly.
-
-1. Load the plyr package <br/>
- - This package is required to apply mean to all feature columns by grouping Activities and Subjects
-
-2. Declaring the variables <br/>
- - All file paths are set into the respective variables to be used later in the script
-
-3. Load the features file, locate the mean and std variables in it using regular expression
-
-4. Create the column vector using the mean and std variables created in Step 3
-
-5. Load the train and test data sets, map them with the mean and std variables created in Step 4
-
-6. Load the Subjects for train and test data sets
-
-7. Load and Activity and set its descriptive names to train and test data sets
-
-8. Bind Activity and Subject to train and test data sets
-
-9. Merge the train and test data sets
-
-10. Apply mean to merged data sets by grouping Activities and Subjects
-
-11. Write out the tidy data set created in Step 10 to working directory
+1. Clone "https://github.com/zawhtetwai/ExData_Plotting1" from GitHub using git clone command.
+2. Launch the RGUI.
+3. Set the working directroy using setwd("to the folder that cloned from GitHub in Step#1")
+4. Type 'source("plot1.R")' without single quote for plot1.png.
+5. Type 'source("plot2.R")' without single quote for plot2.png.
+6. Type 'source("plot3.R")' without single quote for plot3.png.
+7. Type 'source("plot4.R")' without single quote for plot4.png.
